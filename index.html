@@ -3,23 +3,44 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-       
+
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap-responsive.css">
         <link rel="stylesheet" href="css/custom-styles.css">
         <link rel="stylesheet" href="css/font-awesome.css">
         <link rel="stylesheet" href="css/component.css">
         <link rel="stylesheet" href="css/font-awesome-ie7.css">
+        <link
+            href="http://cdn.pydata.org/bokeh/release/bokeh-0.11.1.min.css"
+            rel="stylesheet" type="text/css">
+        <link
+            href="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.11.1.min.css"
+            rel="stylesheet" type="text/css">
 
-        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="http://cdn.pydata.org/bokeh/release/bokeh-0.11.1.min.js"></script>
+        <script src="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.11.1.min.js"></script>
+        <script type="text/javascript">
+      Bokeh.$(function() {
+      var docs_json = {"bb2b31b8-515d-4a71-95e8-7aa2be9d198b":{"roots":{"references":[{"attributes":{"fill_color":{"field":"fill"},"size":{"units":"screen","value":15},"x":{"field":"lon"},"y":{"field":"lat"}},"id":"14365734-e132-4557-b61f-782cf64e2b89","type":"Circle"},{"attributes":{"callback":null},"id":"9ffd2b9a-b58b-42d4-aaec-a1da30397ca9","type":"Range1d"},{"attributes":{"callback":null,"overlay":{"id":"32cf46c6-9d13-4794-8e4c-0a35540c4185","type":"BoxAnnotation"},"plot":{"id":"5a5a3616-5582-4186-ab55-29f70de3fd1b","type":"GMapPlot"}},"id":"7e1ddf3c-6eb2-4d4b-ac6f-2fc0674c5dfc","type":"BoxSelectTool"},{"attributes":{"map_options":{"lat":22.3199694,"lng":87.3044693,"map_type":"roadmap","styles":"\n[{\"featureType\":\"administrative\",\"elementType\":\"all\",\"stylers\":[{\"visibility\":\"on\"},{\"lightness\":33}]},{\"featureType\":\"landscape\",\"elementType\":\"all\",\"stylers\":[{\"color\":\"#f2e5d4\"}]},{\"featureType\":\"poi.park\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#c5dac6\"}]},{\"featureType\":\"poi.park\",\"elementType\":\"labels\",\"stylers\":[{\"visibility\":\"on\"},{\"lightness\":20}]},{\"featureType\":\"road\",\"elementType\":\"all\",\"stylers\":[{\"lightness\":20}]},{\"featureType\":\"road.highway\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#c5c6c6\"}]},{\"featureType\":\"road.arterial\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#e4d7c6\"}]},{\"featureType\":\"road.local\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#fbfaf7\"}]},{\"featureType\":\"water\",\"elementType\":\"all\",\"stylers\":[{\"visibility\":\"on\"},{\"color\":\"#acbcc9\"}]}]\n","zoom":17},"plot_height":650,"plot_width":1150,"renderers":[{"id":"47845b5d-f5f4-45b7-8f49-31ff268813ae","type":"GlyphRenderer"},{"id":"32cf46c6-9d13-4794-8e4c-0a35540c4185","type":"BoxAnnotation"}],"tool_events":{"id":"3fe5e79b-4d48-4f8a-9490-4e3b2b2e17ef","type":"ToolEvents"},"tools":[{"id":"ba64a1e7-947b-451e-a9a5-c91460ff9f69","type":"PanTool"},{"id":"8292820a-ae54-4c81-9998-f59f00e282c8","type":"WheelZoomTool"},{"id":"7e1ddf3c-6eb2-4d4b-ac6f-2fc0674c5dfc","type":"BoxSelectTool"}],"x_range":{"id":"1ba2fab0-6af6-454b-9d3b-72bc901d268e","type":"Range1d"},"y_range":{"id":"9ffd2b9a-b58b-42d4-aaec-a1da30397ca9","type":"Range1d"}},"id":"5a5a3616-5582-4186-ab55-29f70de3fd1b","type":"GMapPlot"},{"attributes":{"plot":{"id":"5a5a3616-5582-4186-ab55-29f70de3fd1b","type":"GMapPlot"}},"id":"8292820a-ae54-4c81-9998-f59f00e282c8","type":"WheelZoomTool"},{"attributes":{"callback":null},"id":"1ba2fab0-6af6-454b-9d3b-72bc901d268e","type":"Range1d"},{"attributes":{"data_source":{"id":"871a9f93-3547-45c3-bb46-5e17e59fecaf","type":"ColumnDataSource"},"glyph":{"id":"14365734-e132-4557-b61f-782cf64e2b89","type":"Circle"},"hover_glyph":null,"nonselection_glyph":null,"selection_glyph":null},"id":"47845b5d-f5f4-45b7-8f49-31ff268813ae","type":"GlyphRenderer"},{"attributes":{"plot":{"id":"5a5a3616-5582-4186-ab55-29f70de3fd1b","type":"GMapPlot"}},"id":"ba64a1e7-947b-451e-a9a5-c91460ff9f69","type":"PanTool"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"32cf46c6-9d13-4794-8e4c-0a35540c4185","type":"BoxAnnotation"},{"attributes":{},"id":"3fe5e79b-4d48-4f8a-9490-4e3b2b2e17ef","type":"ToolEvents"},{"attributes":{"callback":null,"column_names":["lat","lon","fill"],"data":{"fill":["red","green","green"],"lat":[22.320515,22.320257,22.319126],"lon":[87.302195,87.304501,87.304684]}},"id":"871a9f93-3547-45c3-bb46-5e17e59fecaf","type":"ColumnDataSource"}],"root_ids":["5a5a3616-5582-4186-ab55-29f70de3fd1b"]},"title":"Bokeh Application","version":"0.11.1"}};
+      var render_items = [{"docid":"bb2b31b8-515d-4a71-95e8-7aa2be9d198b","elementid":"0cea5e82-48d4-46d8-a721-f5b5171b3616","modelid":"5a5a3616-5582-4186-ab55-29f70de3fd1b"}];
+
+      Bokeh.embed.embed_items(docs_json, render_items);
+  });
+  </script>
+
+        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js" defer></script>
+
+
     </head>
     <body>
+
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -27,40 +48,15 @@
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
             <div class="container">
                 <div class="site-header">
+
+
                     <div class="logo">
-                        <h1>Sitename</h1>
+                      <img src="img/tsa.png">
+                      <h5>presents</h5>
+
+                        <h1>Food & Xerox</h1>
                     </div>
-                    <div class="menu">
-                        <div class="navbar">
-                            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                                <i class="fw-icon-th-list"></i>
-                            </a>
-                            <div class="nav-collapse collapse">
-                                <ul class="nav">
-                                    <li class="active"><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Projects</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div><!--/.nav-collapse -->
-                        </div>
-                        <div class="mini-menu">
-            <label>
-          <select class="selectnav">
-            <option value="#" selected="">Home</option>
-            <option value="#">About</option>
-            <option value="#">→ Another action</option>
-            <option value="#">→ Something else here</option>
-            <option value="#">→ Another action</option>
-            <option value="#">→ Something else here</option>
-            <option value="#">Services</option>
-            <option value="#">Work</option>
-            <option value="#">Contact</option>
-          </select>
-          </label>
-          </div>
-                    </div>
+
                 </div>
             </div>
             <div class="container">
@@ -69,24 +65,18 @@
                                     <!-- Carousel items -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="img/banner-image.jpg" alt="" class="bw">
+                                <img src="img/heritage.jpg" alt="" class="bw">
                                 <div class="carousel-caption">
-                                  <h1>ipsum dolor sit amet lat</h1>
-                                  <h2>Aliquam tincidunt mauris eu risus</h2>
+                                  <h1>Heritage</h1>
+                                  <h2>Usual Timings: 9 am to 10 pm</h2>
                                 </div>
                             </div>
+
                             <div class="item">
-                                <img src="img/banner-image.jpg" alt="" class="bw">
+                                <img src="img/subway.jpg" alt="" class="bw" >
                                 <div class="carousel-caption">
-                                  <h1>ipsum dolor sit amet lat</h1>
-                                  <h2>Aliquam tincidunt mauris eu risus</h2>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="img/banner-image.jpg" alt="" class="bw">
-                                <div class="carousel-caption">
-                                  <h1>ipsum dolor sit amet lat</h1>
-                                  <h2>Aliquam tincidunt mauris eu risus</h2>
+                                  <h1>Subway</h1>
+                                  <h2>Usual Timings: 9 am to 11 pm</h2>
                                 </div>
                             </div>
                         </div>
@@ -100,216 +90,43 @@
                     <div class="row-fluid">
                         <div class="span5 offset1">
                             <div class="block">
-                                <h1>Morbi in sem loremplacerat ornare Pellente</h1>
-                                <h2>euismod in, pharetra ultriciesCrasconsequat vavimus supsompurkoi varsit</h2>
-                                <a href="#" class="btn">more info</a>
+                                <h1>Reds on the map below indicate the closed eateries/xerox shops</h1>
+                                <br>
+                                <h2>Hover to the red/green circles to know more about the place ( Like average time to get your food and the best dishes available)</h2>
+
                             </div>
                         </div>
                         <div class="span5">
                             <div class="block-content">
-                                <h3>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus lorem ipsum dolor</h3>
-                                <p>vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.
-                                </p>
-                                <p class="last">Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integeralesuada.</p>
+                                <h3>Diclaimer regarding scholsave not being responsible if you didn't get your admit card printed or whatever.</h3>
+                                <p>Recent research conducted by StanMerc and AmIT suggests that your IQ rises by a modest 6.8864% by reading TSA's articles. Biggest favor you ever got resides immediately after this sentence. <a href="https://web.scholarsavenue.org/">TSA</a> </p>
+                                <p class="last">Editor's Note: "Pain is temporary, CG is permanent. Also, Click and drag to pan the map."</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="featured-blocks">
-                    <div class="row-fluid">
-                        <div class="span4">
-                            <div class="media">
-                              <a class="pull-left" href="#">
-                                <i class="fw-icon-user icon"></i>
-                              </a>
-                              <div class="media-body">
-                                <h1 class="media-heading">Cestibulum auct</h1>
-                                <div class="ruler-bottom"></div>
-                                <p class="spacing-t">Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
-                                <a href="#" class="btn">more</a>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="span4">
-                            <div class="media">
-                              <a class="pull-left" href="#">
-                                <i class="fw-icon-time icon"></i>
-                              </a>
-                              <div class="media-body">
-                                <h1 class="media-heading">Vetae facillis</h1>
-                                <div class="ruler-bottom"></div>
-                                <p class="spacing-t">Craesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
-                                <a href="#" class="btn">more</a>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="span4">
-                            <div class="media">
-                              <a class="pull-left" href="#">
-                                <i class="fw-icon-tag icon"></i>
-                              </a>
-                              <div class="media-body">
-                                <h1 class="media-heading">integre fusce</h1>
-                                <div class="ruler-bottom"></div>
-                                <p class="spacing-t">Jraesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
-                                <a href="#" class="btn">more</a>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="featured-heading">
-                    <h1>Morbi in sem lorem placerat</h1>
-                    <h2>euismod in pharetra ultricies Crasconsequat vavimus sup</h2>
-                    <form class="form-horizontal input-append">
-                        <input class="span3" type="text" placeholder="cresent sbsum ...">cresent sbsum
-                        <button type="submit" class="btn">egeste</button>
-                    </form>
-                </div>
-            </div>
-            <div class="container">
-                <div class="tabs">
-                    <ul id="myTab" class="nav nav-tabs">
-                      <li class=""><a href="#Sedegestasteet" data-toggle="tab"><i class="fw-icon-flag"></i> Sed egest asteet</a></li>
-                      <li class=""><a href="#morbiinterdum" data-toggle="tab"><i class="fw-icon-tint"></i> morbi interdum</a></li>
-                      <li class="active"><a href="#interdumMorbi" data-toggle="tab"><i class="fw-icon-magnet"></i>interdum Morbi </a></li>
-                    </ul>
-                    <div id="myTabContent" class="tab-content">
-                      <div class="tab-pane fade active in" id="Sedegestasteet">
-                        <div class="row-fluid">
-                            <div class="span6 ruler-right ruler-bottom">
-                                <div class="block">
-                                <img src="img/img1.png" class="spacing-b" alt="">
-                                <p class="last">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis Gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis lorem ipsum dolor.</p>
-                                </div>
-                            </div>
-                            <div class="span6">
-                                <div class="block no-spacing-l">
-                                <img src="img/img2.png" class="spacing-b no-spacing-l" alt="">
-                                <p class="last">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis Gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis lorem ipsum dolor.</p>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="tab-pane fade" id="morbiinterdum">
-                        <div class="row-fluid">
-                            <div class="span6 ruler-right">
-                                <div class="block">
-                                <img src="img/img1.png" class="spacing-b" alt="">
-                                <p class="last">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis Gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis lorem ipsum dolor.</p>
-                                </div>
-                            </div>
-                            <div class="span6">
-                                <div class="block no-spacing-l">
-                                <img src="img/img2.png" class="spacing-b no-spacing-l" alt="">
-                                <p class="last">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis Gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis lorem ipsum dolor.</p>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="tab-pane fade" id="interdumMorbi">
-                        <div class="row-fluid">
-                            <div class="span6 ruler-right">
-                                <div class="block">
-                                <img src="img/img1.png" class="spacing-b" alt="">
-                                <p class="last">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis Gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis lorem ipsum dolor.</p>
-                                </div>
-                            </div>
-                            <div class="span6">
-                                <div class="block no-spacing-l">
-                                <img src="img/img2.png" class="spacing-b no-spacing-l" alt="">
-                                <p class="last">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis Gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis lorem ipsum dolor.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                      </div>
 
 
-                    </div>
-
-                      
-                   
-                      
-                    
+          <div class="container">
+          <div class="plotdiv" id="0cea5e82-48d4-46d8-a721-f5b5171b3616"></div>
+        </div>
 
 
-                </div>
-            </div>
-            <div class="container">
-                <div class="site-info">
-                    <div class="span3">
-                        <h1>Blog posts</h1>
-                        <div class="posts">
-                            <ul>
-                                <li><img src="img/img3.png" class="pull-left" alt="">
-                                    Aug / 27 / 2013 <br>
-                                    <h6><a href="#">Cohn Doe</a></h6>
-                                    <p class="last">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
 
-                                </li>
-                                <li><img src="img/img4.png" class="pull-left" alt="">
-                                    Aug / 27 / 2013 <br>
-                                    <h6><a href="#">Cohn Doe</a></h6>
-                                    <p class="last">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
 
-                                </li>
-                                <li class="no-border-bottom"><img src="img/img5.png" class="pull-left" alt="">
-                                    Aug / 27 / 2013 <br>
-                                    <h6><a href="#">Cohn Doe</a></h6>
-                                    <p class="last">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
 
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="span3">
-                         <h1>Twitter posts</h1>
-                        <div class="posts">
-                            <ul>
-                                <li class="no-border-bottom"><a href="#"><i class="fw-icon-twitter"></i></a>
-                                    <strong>@rafimit</strong> <br>
-                                    <p class="last">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
 
-                                </li>
-                                <li class="no-border-bottom no-spacing-t"><a href="#"><i class="fw-icon-twitter"></i></a>
-                                    <strong>@johndoe</strong> <br>
-                                    <p class="last">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
-                                </li>
-                                <li class="no-border-bottom no-spacing-t"><a href="#"><i class="fw-icon-twitter"></i></a>
-                                    <strong>@amanda</strong> <br>
-                                    <p class="last">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
-                                </li>
-                                <li class="no-border-bottom no-spacing-t"><a href="#"><i class="fw-icon-twitter"></i></a>
-                                    <strong>@peter</strong> <br>
-                                    <p class="last">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="span5">
-                        <h1>Quick contact</h1>
-                        <img src="img/img6.png" class="spacing-t spacing-b" alt="">
-                        <div class="site-address">
-                            <strong>Address</strong><br>
-                            <span>Building name, some street name, some city name, country</span>
-                        </div>
-                          <a href="#" class="link"> info@sitename.com </a> /  (000)  888 888 8888
 
-                    </div>
-                </div>
-            </div>
+
+
             <div class="container">
                 <div class="copy-rights">
-                    Copyright(c) website name.  <strong>Designed by:<a href="http://www.alltemplateneeds.com">www.alltemplateneeds.com</a> </strong>/ Images from: <a href="http://wallpaperswide.com">http://wallpaperswide.com</a>/ <a href="http://www.photorack.net">www.photorack.net</a>
+                   <strong>Made by: Utkarsh</strong>
                 </div>
             </div>
-            
-       <script src="js/jquery-1.9.1.js"></script> 
+
+       <script src="js/jquery-1.9.1.js"></script>
 <script src="js/bootstrap.js"></script>
 <script>
 $('#myCarousel').carousel({
